@@ -1,0 +1,50 @@
+body {
+  background-color: #f5efe9;
+  min-height: 100vh;
+}
+.store-title {
+  font-family: "Cherry Bomb One", cursive;
+  text-align: center;
+  color: #3c2415;
+}
+.menu-card {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(60, 36, 21, 0.15);
+}
+
+.menu-card .price {
+  color: #3c2415;
+}
+
+.btn-add,
+.btn-remove {
+  background-color: #3c2415;
+  color: #fff;
+  border: 0;
+}
+
+.btn-add:hover,
+.btn-add:focus,
+.btn-remove:hover,
+.btn-remove:focus {
+  background-color: #5a3822;
+  color: #fff;
+}
+
+.cart-panel {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(60, 36, 21, 0.15);
+}
+
+.cart-panel .category {
+  color: #8a5a3b;
+}
+
+@media (min-width: 992px) {
+  .cart-panel {
+    position: sticky;
+    top: 2rem;
+  }
+}
